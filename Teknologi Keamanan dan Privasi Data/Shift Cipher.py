@@ -35,7 +35,7 @@ def shift_cipher(text, shift):
 def main():
     text = input("Masukkan teks: ")
     # NIM L200200182
-    # Menggunakan shift 82, dikarenakan 2 Digit terakhir NIM saya adalah 19
+    # Menggunakan shift 82, dikarenakan 2 Digit terakhir NIM saya adalah 82
     shift = 82
     print("Hasil enkripsi: ", shift_cipher(text, shift))
 
